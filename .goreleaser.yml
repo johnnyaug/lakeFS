@@ -8,7 +8,7 @@ release:
   prerelease: true
   extra_files:
     - glob: ./swagger.yml
-    - glob: ./catalog/catalog.p roto
+    - glob: ./catalog/catalog.proto
     - glob: ./graveler/graveler.proto
     - glob: ./graveler/committed/committed.proto
 builds:
