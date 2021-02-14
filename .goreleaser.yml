@@ -6,6 +6,8 @@ before:
 release:
   disable: false
   prerelease: true
+  extra_files:
+    - glob: ./swagger.yml
 builds:
 - id: lakefs
   main: ./cmd/lakefs
