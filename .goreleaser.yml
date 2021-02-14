@@ -8,6 +8,9 @@ release:
   prerelease: true
   extra_files:
     - glob: ./swagger.yml
+    - glob: ./catalog/catalog.p roto
+    - glob: ./graveler/graveler.proto
+    - glob: ./graveler/committed/committed.proto
 builds:
 - id: lakefs
   main: ./cmd/lakefs
